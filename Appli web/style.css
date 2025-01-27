@@ -55,8 +55,58 @@ main .container{
     flex-direction: column;
 }
 
+main .container>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0 10px;
+    background-color: rgba(6, 35, 133, 0.25);
+    border: 1px solid rgb(6, 35, 133);
+}
+main .container>div:first-child div button{
+    width: fit-content;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.ajouter{
+    text-align: end;
+}
+main .container>div>button{
+    width: fit-content;
+}
+main .container table td{
+    padding: 5px 0px;
+}
+.editor{
+    border-color: rgb(204, 150, 0);
+    background-color: rgba(204, 105, 0, 0.25);
+}
+.delete{
+    border-color: rgb(252, 30, 30);
+    background-color: rgba(252, 30, 30, 0.25);
+}
 main .container table tr td:last-child{
     width: fit-content;
+}
+main .container table thead{
+    text-align: left;
+    background-color:rgba(6, 35, 133, 0.25);
+}
+main .container table tbody tr:nth-child(2n){
+    background-color: rgba(6, 35, 133, 0.25);
+}
+main .container .pagination{
+    text-align: center;
+}
+main .container .pagination ul{
+    list-style-type: none;
+
+}
+main .container .pagination ul li{
+    display: inline-block;
 }
 @media(min-width:1200px){
     body{

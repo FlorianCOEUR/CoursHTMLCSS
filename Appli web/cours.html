@@ -38,11 +38,15 @@
         <div class="container">
             <div>
                 <h1>Controle Panel</h1>
-                <button>Boutton 1</button>
-                <button>Boutton 1</button>
-                <button>Boutton 1</button>
-                <input type="search" name="filter" id="">
+                <div>
+                    <button>Boutton 1</button>
+                    <button>Boutton 1</button>
+                    <button>Boutton 1</button>
+                    <input type="search" name="filter" id="">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
             </div>
+            <div class="ajouter"><button>Ajouter</button></div>
             <table>
                 <thead>
                     <th>Nom</th>
@@ -55,54 +59,116 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td><button type="button">Editer</button>
-                            <button type="button">Supprimer</button></td>
+                        <td>Dupont</td>
+                        <td>Jean</td>
+                        <td>01/01/1980</td>
+                        <td>123 Rue de la Paix, 75000 Paris</td>
+                        <td>jean.dupont@example.com</td>
+                        <td>01 23 45 67 89</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
                     </tr>
                     <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td><button>Editer</button><button>Supprimer</button></td>
+                        <td>Martin</td>
+                        <td>Marie</td>
+                        <td>15/05/1990</td>
+                        <td>456 Avenue des Champs-Élysées, 75008 Paris</td>
+                        <td>marie.martin@example.com</td>
+                        <td>01 34 56 78 90</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
                     </tr>
                     <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td><button>Editer</button><button>Supprimer</button></td>
+                        <td>Durand</td>
+                        <td>Pierre</td>
+                        <td>22/08/1985</td>
+                        <td>789 Boulevard Haussmann, 75009 Paris</td>
+                        <td>pierre.durand@example.com</td>
+                        <td>01 45 67 89 01</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
                     </tr>
                     <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td><button>Editer</button><button>Supprimer</button></td>
+                        <td>Lefèvre</td>
+                        <td>Sophie</td>
+                        <td>03/11/1992</td>
+                        <td>101 Rue de Rivoli, 75001 Paris</td>
+                        <td>sophie.lefevre@example.com</td>
+                        <td>01 56 78 90 12</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
                     </tr>
                     <tr>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td>lorem</td>
-                        <td><button>Editer</button><button>Supprimer</button></td>
+                        <td>Rousseau</td>
+                        <td>Paul</td>
+                        <td>12/04/1988</td>
+                        <td>202 Rue de la République, 75011 Paris</td>
+                        <td>paul.rousseau@example.com</td>
+                        <td>01 67 89 01 23</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
+                    </tr>
+                    <tr>
+                        <td>Leroy</td>
+                        <td>Claire</td>
+                        <td>25/07/1995</td>
+                        <td>303 Rue de la Convention, 75015 Paris</td>
+                        <td>claire.leroy@example.com</td>
+                        <td>01 78 90 12 34</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
+                    </tr>
+                    <tr>
+                        <td>Moreau</td>
+                        <td>Luc</td>
+                        <td>08/12/1982</td>
+                        <td>404 Rue de la Roquette, 75011 Paris</td>
+                        <td>luc.moreau@example.com</td>
+                        <td>01 89 01 23 45</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
+                    </tr>
+                    <tr>
+                        <td>Garnier</td>
+                        <td>Julie</td>
+                        <td>19/03/1991</td>
+                        <td>505 Rue de la Pompe, 75016 Paris</td>
+                        <td>julie.garnier@example.com</td>
+                        <td>01 90 12 34 56</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
+                    </tr>
+                    <tr>
+                        <td>Chevalier</td>
+                        <td>Marc</td>
+                        <td>30/09/1987</td>
+                        <td>606 Rue de la Boétie, 75008 Paris</td>
+                        <td>marc.chevalier@example.com</td>
+                        <td>01 01 23 45 67</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
+                    </tr>
+                    <tr>
+                        <td>Bernard</td>
+                        <td>Anne</td>
+                        <td>05/06/1993</td>
+                        <td>707 Rue de la Fayette, 75009 Paris</td>
+                        <td>anne.bernard@example.com</td>
+                        <td>01 12 34 56 78</td>
+                        <td><button class="editor" type="button">Editer</button>
+                            <button class="delete" type="button">Supprimer</button></td>
                     </tr>
                 </tbody>
             </table>
-            <div>La pagination!</div>
+            <div class="pagination">
+                <ul>
+                    <li><a href=""><<</a></li>
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">>></a></li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>

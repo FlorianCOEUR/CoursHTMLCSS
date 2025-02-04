@@ -69,7 +69,6 @@ main .container>div:first-child div button{
     width: fit-content;
     text-align: center;
     font-size: 1.2em;
-    border-radius: 5px;
 }
 .ajouter{
     text-align: end;
